@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Narcissistic Analyser</title>
+    </head>
+    <body>
+        <style>
+            body{
+                margin: 0px 50px;
+                padding: 30px;
+                background-color: #ccc;               
+            }
+
+           
+
+            #form{ 
+                margin-top: 40px;
+                width: 450px;
+
+            }
+
+
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0 300px;
+                font-size: 50px;
+            }
+
+            form{
+                width: 100%;
+            }
+
+            #Num{
+                font-size: 30px;
+                width: 100%;
+            }
+
+            #form{
+                margin-left: 300px;
+            }
+            
+            #submit{
+                width: 80px;
+                height: 30px;
+                margin-left: 370px;
+                margin-top: 20px;
+                font-family: cursive;
+                font-size: 18px;
+                background-color: #ccc4cc;
+            }
+
+            #Result{
+                margin-top: 20px;
+                font-size: 30px;
+                width: 100%;
+            }
+            
+        
+        </style>
+        <h1>Narcissistic Number</h1>
+        <form>
+            <div id = "form">
+                <div ><input type="number" placeholder="Enter number here" id="Num"></div>
+
+                <div><input type="text"  id="Result" onclick="narcNum();"></div>
+
+                <div><input type="submit" value="Analyse" onclick="narcNum(); return false;" id="submit"></div>
+
+                
+                 
+
+            </div>
+            
+ 
+
+
+
+
+        </form>
+        
+
+        <script src="Narcissistic.js" ></script>
+    </body>
+
+
+
+
+
+
+</html>
